@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/ # محیط مجازی شما (اگر استفاده می‌کنید)
+
+# Database files
+*.sqlite3 # فایل‌های دیتابیس SQLite (اگر از SQLite استفاده می‌کنید)
+*.db # فایل‌های عمومی دیتابیس (مانند .db)
+data/ # پوشه‌ای که ممکن است دیتابیس در آن باشد
+
+# Environment variables & sensitive data
+.env # فایل برای متغیرهای محیطی (مثل BOT_TOKEN)
+config.py # اگر توکن یا اطلاعات حساس را در یک فایل config.py ذخیره کرده‌اید
+secrets.py # اگر اطلاعات حساس را در secrets.py ذخیره کرده‌اید
+
+# Logs
+*.log
+
+# IDE / OS specific files
+.DS_Store # macOS specific
+.idea/ # PyCharm specific
+.vscode/ # تنظیمات VS Code
